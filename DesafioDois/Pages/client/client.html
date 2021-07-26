@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Cadastro</title>
+
+<link rel="stylesheet" href="style-client.css">
+</head>
+
+<body>  
+    <section class="main">
+        <section class="left">
+            <h1>
+             CADASTRO DE CLIENTE
+            </h1>
+        </section>
+        <section class="right">
+                <form  method="get" id="content">
+                    <fieldset>
+                        <div> 
+                            <input type="text" name="nome" id="nome" placeholder="NOME COMPLETO">
+                            <input type="text"  name="cpf" id="cpf" placeholder="CPF">
+                            <input type="email"  name="email" id="email" placeholder="E-MAIL">
+                            <input type="tel"  name="telefone" id="telefone" placeholder="TELEFONE">
+                            <input type="text"  name="rua" id="rua" placeholder="RUA">
+                            <input type="text"  name="numero" id="numero" placeholder="NÚMERO">
+                            <input type="complemento"  name="complemento" id="complemento" placeholder="COMPLEMENTO">
+                            <input type="text"  name="cep" id="cep" placeholder="CEP">
+                            <input type="text"  name="cidade" id="cidade" placeholder="CIDADE">
+                        </div>
+                    </fieldset>
+                        <div class="botoes">
+                            <a target="_parent" href="/index.html"><button type="button">Início</button></a>
+                            <a><button type="submit" id="cadastrar-cliente">Cadastrar cliente</button></a>
+                        </div>
+                </form>
+        </section>
+    </section>
+    
+
+    <footer>Todos os direitos reservados  &copy;Copyright </footer>
+</body>
+<script src="script-client.js"></script>
+</html>
